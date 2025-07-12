@@ -1,0 +1,20 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Admin",
+      "email": "admin@example.com",
+      "password": "password123",
+      "role": "admin"
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "Primer Post",
+      "content": "Contenido del primer post",
+      "userId": 1,
+      "createdAt": "2024-01-01"
+    }
+  ]
+}
