@@ -1,20 +1,21 @@
 {
   "users": [
     {
-      "id": 1,
-      "name": "Admin",
-      "email": "admin@example.com",
-      "password": "password123",
-      "role": "admin"
+        "id": "99b7",
+        "name": "Camilo",
+        "gender": "male",
+        "email": "juancamilo@gmail.com",
+        "username": "camilomendez",
+        "password": "111111"
     }
   ],
   "posts": [
     {
-      "id": 1,
-      "title": "Primer Post",
-      "content": "Contenido del primer post",
-      "userId": 1,
-      "createdAt": "2024-01-01"
+        "id": "n1",
+        "title": "Lista de tareas",
+        "content": "1. Comprar leche\n2. Estudiar para el parcial",
+        "ownerId": "99b7",                    
+        "sharedWith": ["12ab", "34cd"]        
     }
   ]
 }
